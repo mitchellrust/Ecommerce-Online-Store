@@ -1,0 +1,16 @@
+Carosoule at top of home page; about me etc.
+subcollections for each category
+add to cart and sign in for persistent account and cart
+
+Account Page:
+
+    shipping info?
+
+
+Necesities for the Website:
+    carousel
+    cloud function for when cart items expire to re-populate inventory
+    home page:
+        one row of each type of product, and then a button to go to page of that product specifically
+    individual pages:
+        no subcollections at this moment

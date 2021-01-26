@@ -1,0 +1,152 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #e8a87c;
+    padding-bottom: 1px;
+    z-index: 999;
+}
+
+.logo {
+    height: 85px;
+    display: inline-block;
+}
+
+.header ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.user-button {
+    float: right;
+}
+
+.header li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 75px;
+}
+
+.header .icon {
+    margin-right: 8px;
+}
+
+.header li a {
+    color: black;
+    font-size: 18px;
+    padding: 0px 20px;
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
+
+.user-button .dropdown {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: #e8a87c;
+    z-index: 1000;
+}
+
+.user-button .dropdown-header {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    padding: 33px 20px;
+    background: #e8a87c;
+}
+
+.user-button .dropdown-header .icon {
+    margin: 0px 8px;
+    margin-bottom: 2px;
+}
+
+.user-button .dropdown-items {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.user-button .dropdown-item a {
+    display: block;
+    padding: 5px 20px;
+    color: black;
+    font-size: 18px;
+}
+
+.header li a:hover, .header .user-button a:hover, .user-button .dropdown-header:hover, .user-button .dropdown-header:hover a, .user-button .dropdown-item a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .menu-toggle {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 932px) {
+    .header li, .user-button {
+        display: none;
+    }
+
+    .header ul {
+        margin-right: 15px;
+    }
+
+    .header .menu-toggle {
+        margin: 20px;
+        float: right;
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        top: 85px;
+        display: block;
+        width: 100%;
+        height: 250px;
+        background: #e8a87c;
+        z-index: 999;
+    }
+
+    .extended {
+        height: 350px;
+    }
+
+    .menu li {
+        list-style: none;
+        padding-bottom: 20px;
+    }
+
+    .menu .icon {
+        margin-right: 8px;
+    }
+
+    .menu .dropdown-icon {
+        margin-left: 8px;
+    }
+
+    .menu li a, .menu div {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        display: inline-block;
+    }
+
+    .menu .account-opt {
+        padding-left: 20px;
+    }
+
+    .menu .account-opts {
+        display: block;
+    }
+
+    .menu li a:hover, .menu li div:hover {
+        color: #fff;
+    }
+    
+  }
